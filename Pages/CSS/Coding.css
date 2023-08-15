@@ -1,0 +1,152 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1a1d20;
+    border-radius: 10px;
+}
+
+* {
+    font-size: 67,5%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #343a40;
+}
+
+.tijdelijk {
+    padding-top: 100rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer-main{
+    background-color: #24292d;
+    color: #5d6166;
+    height: 150px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    border-top: 2px solid #15171a;
+}
+
+.footer-line-1 {
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-line-2 {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;;
+    gap: 5px;
+}
+
+.footer-items {
+    justify-items: center;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.NoudDev {
+    color: white;
+    font-weight: 700;
+}
+
+.footer-discord-icon {
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+
+
+
+/* Navigation Bar Top */
+
+.navigation-bar {
+    background-color: #24292d;
+    height: 75px;
+    border-bottom: 2px solid #15171a;
+    position: fixed;
+    width: 100vw;
+}
+
+.navigation-bar::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav-ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 30px 50px 0px 50px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #f26e5a;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: white;
+    transition: 0.3s;
+    /* background: #F80000; */
+    /* height: 40px; */
+    /* width: 105px; */
+    /* border-radius: 10px;; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.nav-logo {
+    width: 90px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 2px;
+    transition: 0.3s;
+}
+
+.nav-logo:hover {
+    width: 80px;
+    margin-top: 6px;
+    margin-left: 55px;
+}
+
+.navigation-items {
+    float: right;
+}

@@ -1,0 +1,244 @@
+/* Background Color: #343a40 */
+/* Tints: #24292d */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1a1d20;
+    border-radius: 10px;
+}
+
+* {
+    font-size: 67,5%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #1f2326, #343a40);
+}
+
+.container {
+    color: white;
+    display: grid;
+    grid-template-columns: 700px 200px;
+    padding: 2rem 15rem 10rem 8rem;
+    gap: 10px;
+    max-width: 100vw;
+}
+
+.text-1-hero {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.text-2-hero {
+    font-size: 1rem;
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.youtube-button-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    background: #F80000;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    transition: 0.3s;
+}
+
+.youtube-button-link:hover {
+    background: #c60000;
+}
+
+.youtube-icon {
+    margin-left: 0.5rem;
+    height: 24px;
+    width: 24px;
+}
+
+.discord-button-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    background: #5865F2;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    transition: 0.3s;
+}
+
+.discord-button-link:hover {
+    background: #4651c2;
+}
+
+.discord-icon {
+    margin-left: 0.5rem;
+    height: 24px;
+    width: 24px;
+}
+
+.twitch-button-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-flex;
+    background: #6441a5;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    transition: 0.3s;
+}
+
+.twitch-button-link:hover {
+    background: #503484;
+}
+
+.twitch-icon {
+    margin-left: 0.5rem;
+    height: 24px;
+    width: 24px;
+}
+
+.diagram-hero {
+    margin-top: 180px;
+    width: 630px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.diagram-hero:hover {
+    margin-top: 185px;
+    margin-left: 15px;
+    width: 600px;
+}
+
+.footer-main{
+    background-color: #24292d;
+    color: #5d6166;
+    height: 150px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    border-top: 2px solid #15171a;
+}
+
+.footer-line-1 {
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-line-2 {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;;
+    gap: 5px;
+}
+
+.footer-items {
+    justify-items: center;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.NoudDev {
+    color: white;
+    font-weight: 700;
+}
+
+.footer-discord-icon {
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+
+.navigation-bar {
+    width: 100vw;
+}
+
+.navigation-bar::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav-ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 30px 50px 0px 50px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #f26e5a;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-logo {
+    width: 90px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 2px;
+    transition: 0.3s;
+}
+
+.nav-logo:hover {
+    width: 80px;
+    margin-top: 6px;
+    margin-left: 55px;
+}
+
+.navigation-items {
+    float: right;
+}
